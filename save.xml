@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<dashboard>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="251" y="151"/>
+		<width>76</width>
+		<height>40</height>
+		<property name="Text Size" value="33"/>
+		<property name="Text Color" value="51.51.255.255"/>
+	</static-widget>
+	<widget field="Ultrsonic Voltage" type="Double" class="edu.wpi.first.smartdashboard.gui.elements.Slider">
+		<location x="326" y="461"/>
+		<width>121</width>
+		<height>56</height>
+		<property name="Maximum Value" value="50"/>
+	</widget>
+	<widget field="Reset Pitch Gyro" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="39" y="241"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="12" y="9"/>
+		<width>154</width>
+		<height>141</height>
+	</static-widget>
+	<widget field="Elevator Sensor Voltage" type="Double" class="edu.wpi.first.smartdashboard.gui.elements.LinePlot">
+		<location x="426" y="19"/>
+		<width>411</width>
+		<height>277</height>
+	</widget>
+	<widget field="Balanced" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="74" y="475"/>
+	</widget>
+	<widget field="Yaw Gyro" type="Double" class="edu.wpi.first.smartdashboard.gui.elements.Compass">
+		<location x="416" y="555"/>
+		<width>167</width>
+		<height>108</height>
+	</widget>
+	<widget field="Pitch Gyro" type="Double" class="edu.wpi.first.smartdashboard.gui.elements.Compass">
+		<location x="559" y="558"/>
+		<width>165</width>
+		<height>108</height>
+	</widget>
+	<widget field="Y acceleration" type="Double" class="edu.wpi.first.smartdashboard.gui.elements.LinePlot">
+		<location x="851" y="310"/>
+		<width>493</width>
+		<height>290</height>
+		<property name="Buffer Size (samples)" value="100"/>
+	</widget>
+	<widget field="X acceleration" type="Double" class="edu.wpi.first.smartdashboard.gui.elements.LinePlot">
+		<location x="853" y="19"/>
+		<width>480</width>
+		<height>277</height>
+	</widget>
+	<widget field="SWEEPER_OVERRIDE" type="String" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="930" y="624"/>
+		<property name="Foreground" value="255.255.255.255"/>
+		<property name="Background" value="255.51.51.255"/>
+		<property name="Font Size" value="20"/>
+	</widget>
+	<widget field="Ultrasonic Distance" type="Double" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="379" y="340"/>
+		<height>21</height>
+	</widget>
+	<widget field="Sweeper State: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="144" y="589"/>
+	</widget>
+	<widget field="DriveBaseSubsystem" type="Subsystem" class="edu.wpi.first.smartdashboard.gui.elements.Subsystem">
+		<location x="91" y="304"/>
+		<width>199</width>
+	</widget>
+</dashboard>

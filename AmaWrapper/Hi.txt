@@ -1,0 +1,12 @@
+ I changed the organization of the code and made the preferences work correctly
+
+
+Ah awesome Ben, sorry for randomly building the project, I just tried it out on my computer and it works perfectly here
+Ok, I still can't get the zoom to load into the preferences or save, but I didn't try that hard so it is probably pretty easy to do
+
+Yeah, that's alright for now, the zoom is the least annoying preference to set every time---the password is much more annoying to type over and over
+That's why I didn't try that hard to fix it
+
+
+Good point... well, we'll be fixing more code tomorrow, so there'll be time to sort the zoom preference out
+Okay

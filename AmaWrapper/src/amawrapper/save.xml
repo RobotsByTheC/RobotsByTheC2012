@@ -1,0 +1,9 @@
+    <teamnumber>2084</teamnumber>
+    <usecustomurl>false</usecustomurl>
+    <customurl>http://10.20.84.11/mjpg/video.mjpg</customurl>
+    <loginrequired>true</loginrequired>
+    <username>root</username>
+    <password>root</password>
+    <showcontrols>true</showcontrols>
+    <zoomtype>0</zoomtype>
+    <customzoomvalue>1.43</customzoomvalue>

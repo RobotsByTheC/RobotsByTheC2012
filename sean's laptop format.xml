@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<dashboard>
+	<widget field="ElevatorEncoderRate" type="Double" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="344" y="219"/>
+	</widget>
+	<widget field="Averages Valid" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="58"/>
+	</widget>
+	<widget field="AverageElevatorEncoderRate" type="Double" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="29"/>
+	</widget>
+	<widget field="Hybrid Mode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="0"/>
+	</widget>
+	<widget field="Ramp Upper Limit Switch" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="533" y="294"/>
+		<width>165</width>
+		<height>32</height>
+	</widget>
+	<widget field="Ramp Lower Limit Switch" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="535" y="257"/>
+		<width>162</width>
+		<height>28</height>
+	</widget>
+	<widget field="Balanced" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="457" y="183"/>
+		<width>66</width>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="982" y="216"/>
+		<width>84</width>
+		<height>43</height>
+		<property name="Text" value="Connected"/>
+	</static-widget>
+	<widget field="Ball Sensor 3" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="75" y="354"/>
+	</widget>
+	<widget field="Ball Sensor 2" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="75" y="336"/>
+	</widget>
+	<widget field="Ball Sensor 1" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="75" y="315"/>
+	</widget>
+	<widget field="30 SEC LEFT!!" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="13" y="131"/>
+		<width>166</width>
+		<height>72</height>
+	</widget>
+	<widget field="Raise Ramp Controller" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="449" y="28"/>
+	</widget>
+	<widget field="Sweeper State: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="418" y="78"/>
+		<width>220</width>
+		<height>52</height>
+		<property name="Font Size" value="30"/>
+	</widget>
+	<widget field="Solenoid" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="44" y="244"/>
+	</widget>
+	<widget field="Lower Ramp Controller" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="447" y="47"/>
+	</widget>
+	<widget field="OPERATOR_OVERRIDE" type="String" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="290" y="398"/>
+		<property name="Foreground" value="255.255.255.255"/>
+		<property name="Background" value="255.0.0.255"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="769" y="9"/>
+		<width>484</width>
+		<height>412</height>
+	</static-widget>
+	<widget field="DriveBaseSubsystem" type="Subsystem" class="edu.wpi.first.smartdashboard.gui.elements.Subsystem">
+		<location x="924" y="219"/>
+		<width>313</width>
+		<height>28</height>
+	</widget>
+	<widget field="Back Door Servo" type="Double" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="842" y="326"/>
+	</widget>
+	<widget field="Robot Front" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="842" y="297"/>
+	</widget>
+	<widget field="Raise Elevator Full Height" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="868" y="283"/>
+	</widget>
+	<widget field="SweeperSubsystem" type="Subsystem" class="edu.wpi.first.smartdashboard.gui.elements.Subsystem">
+		<location x="922" y="253"/>
+	</widget>
+	<widget field="DumperSubsystem" type="Subsystem" class="edu.wpi.first.smartdashboard.gui.elements.Subsystem">
+		<location x="930" y="197"/>
+	</widget>
+	<widget field="RampSpeed" type="Double" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="931" y="150"/>
+		<width>230</width>
+		<height>42</height>
+	</widget>
+	<widget field="Put Elevator in middle height" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="916" y="129"/>
+	</widget>
+	<widget field="RampControllerSubsystem" type="Subsystem" class="edu.wpi.first.smartdashboard.gui.elements.Subsystem">
+		<location x="900" y="92"/>
+		<width>476</width>
+	</widget>
+	<widget field="Reset Pitch Gyro" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="920" y="118"/>
+	</widget>
+	<widget field="Lower Elevator to Floor" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="907" y="71"/>
+	</widget>
+	<widget field="ElevatorSubsystem" type="Subsystem" class="edu.wpi.first.smartdashboard.gui.elements.Subsystem">
+		<location x="944" y="82"/>
+	</widget>
+	<widget field="Z acceleration" type="Double" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="850" y="46"/>
+	</widget>
+	<widget field="X acceleration" type="Double" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="853" y="19"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="982" y="216"/>
+		<width>84</width>
+		<height>43</height>
+		<property name="Text" value="Connected"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="769" y="9"/>
+		<width>484</width>
+		<height>412</height>
+	</static-widget>
+	<hidden field="HOLD DOWN ARM"/>
+	<hidden field="Arm Watchdog"/>
+	<hidden field="Upper Ramp Limit Switch"/>
+	<hidden field="Elevator Height"/>
+	<hidden field="Lower And Hold Ramp"/>
+	<hidden field="ElevatorCounter"/>
+	<hidden field="SWEEPER_OVERRIDE"/>
+	<hidden field="Rear left encoder"/>
+	<hidden field="Elevator Encoder"/>
+	<hidden field="Front left encoder"/>
+	<hidden field="Elevator Sensor Voltage"/>
+	<hidden field="Pitch Gyro"/>
+	<hidden field="Yaw Gyro"/>
+	<hidden field="Front right encoder"/>
+	<hidden field="Y acceleration"/>
+	<hidden field="Rear right encoder"/>
+	<hidden field="ElevatorEncoder"/>
+</dashboard>

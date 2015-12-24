@@ -1,0 +1,5 @@
+I just copied this from the Classmate's Program Files...... it seems to work :-(
+
+You know where WPI conveniently hid all of the files for WPIJavaCV and NetworkTable etc etc etc?
+They're not "on" the regular website, you have to download an SVN client and also make an account on FIRSTForge
+to get the files. And I don't really think they told anyone about this.... I found all of this out on Chiefdelphi
